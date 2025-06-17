@@ -2122,6 +2122,7 @@ button.btn--pill {
     background-color: var(--color-purple);
     border-color    : var(--color-purple);
     color           : var(--color-white);
+    font-size: medium;
 }
 
 .btn--purple:hover,
@@ -2135,6 +2136,7 @@ button.btn--pill {
     background-color: var(--color-white);
     color           : var(--color-black);
     border-color    : var(--color-white);
+    font-size: medium;
 }
 
 .btn--download:hover,
@@ -2148,6 +2150,7 @@ button.btn--pill {
     background-color: var(--color-orange);
     color           : var(--color-white);
     border-color    : var(--color-orange);
+    font-size: medium;
 }
 
 .btn--contact:hover,
