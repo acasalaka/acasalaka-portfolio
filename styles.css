@@ -1466,7 +1466,7 @@ hr.fancy::before {
     background-repeat: no-repeat;
     background       : center center;
     background-size  : contain;
-    background-image : url(../images/icons/icon-quote.svg);
+    background-image : url(images/icons/icon-quote.svg);
     transform        : translate(-50%, 0, 0);
     position         : absolute;
     top              : var(--vspace-1);
@@ -2797,16 +2797,16 @@ td:last-child {
 }
 
 .glightbox-container .gslide-title {
-    font-family  : var(--font-1);
+    font-family  : var(--font-2);
     font-weight  : 400;
-    font-size    : 1.7rem !important;
-    color        : white;
+    font-size    : var(--text-md);
+    color        : var(--color-yellow);
     margin-top   : 0;
     margin-bottom: var(--vspace-0_375);
 }
 
 .glightbox-container .gslide-desc {
-    font-family: var(--font-1);
+    font-family: var(--font-2);
     font-weight: 300;
     font-size  : 1.4rem;
     line-height: 1.571;
@@ -3948,6 +3948,8 @@ td:last-child {
     padding-top   : var(--vspace-1);
     padding-bottom: var(--vspace-2);
     background-color: var(--color-orange);
+    font-family: var(--font-1) sans-serif;
+
 }
 
 .folio-entries {
@@ -4010,7 +4012,7 @@ td:last-child {
 
 .folio-entries .entry__cat,
 .folio-entries .entry__title {
-    font-family: var(--font-1);
+    font-family: var(--font-2);
 }
 
 .folio-entries .entry__cat {
@@ -4222,15 +4224,16 @@ td:last-child {
 .ss-copyright {
     margin     : 0 var(--vspace-2) 0 0;
     line-height: var(--vspace-0_875);
+    color: var(--color-white);
 }
 
 .ss-copyright a {
-    color: var(--color-gray-5);
+    color: var(--color-purple);
 }
 
 .ss-copyright a:focus,
 .ss-copyright a:hover {
-    color: var(--color-1);
+    color: var(--color-white);
 }
 
 .ss-copyright span {
@@ -4241,7 +4244,7 @@ td:last-child {
     content: "|";
     display: inline-block;
     padding: 0 0.8rem 0 1rem;
-    color  : rgba(255, 255, 255, 0.04);
+    color  : var(--color-pink);
 }
 
 .ss-copyright span:last-child::after {
